@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Subaru-temperaturecontrol by khiraide</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Subaru-temperaturecontrol</h1>
+        <p>Temperature control system for Subaru Telescope Instruments</p>
+
+        <p class="view"><a href="https://github.com/khiraide/subaru-temperatureControl">View the Project on GitHub <small>khiraide/subaru-temperatureControl</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/khiraide/subaru-temperatureControl/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/khiraide/subaru-temperatureControl/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/khiraide/subaru-temperatureControl">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p><a target="_blank" title="ImageShack - Image And Video Hosting" href="http://hiraidekeone.files.wordpress.com/2013/01/itcs_control_screen.png/"><img src="http://hiraidekeone.files.wordpress.com/2013/01/itcs_control_screen.png" border="0"></a></p>
+
+<h2>Description</h2>
+
+<p>Many instruments used at Subaru Telescope require precise temperature control for their imaging detectors and optics. Currently, each of these instruments has its own system for programming and controlling its equipment. Even though each system has the same functionality of controlling temperature, they vary in quality, interface design, and characteristics. As a result, telescope operators are required to learn the unique behavior of each instrument’s system in order to maintain temperature control. The purpose of this project is to build a central temperature-control system which can program and monitor all of the controllers remotely using a central-operator web-based interface. We have designed and written a temperature-control system application using the C programming language, HTML, TCP/IP, MySQL, UNIX, and StarGate, a Subaru scripting language for Web development. The instruments are connected to a terminal server by serial ports, which allows our application to send commands to the instruments through a GUI over a network or the Internet, in order to query and set various parameters to monitor and control an instrument’s temperature. Currently, our application is able to measure the temperature of Subaru’s FMOS instrument with a precision of ±0.1 K, and users are able to use the GUI to raise or lower its temperature by remote command. Future development may include the ability to monitor and control additional instrument systems, or the inclusion of additional control algorithms to further meet the needs of Subaru astronomers and instrument users.</p>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/khiraide">khiraide</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
